@@ -6,6 +6,8 @@ Pneumonia is an infection that inflames the air sacs in one or both lungs. The a
 
 Pneumonia can range in seriousness from mild to life-threatening. It is most serious for infants and young children, people older than age 65, and people with health problems or weakened immune systems.
 
+![alt text](image.png)
+
 
 ## The Dataset
 Source: Kaggle
