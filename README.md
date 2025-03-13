@@ -33,7 +33,7 @@ The training data proofed to be imbalanced in favor for
 
 # Model Training 
 
-## First try with chatpgt suggestion
+## First model 
 In order to train the the model a basic suggestion from chatgpt was implemented first to assess the models performance.
 A simple sequential model (layer-by-layer) was suggested. The model consists of 3 convolutional layers, followed by flattening to flatten the output from the convolutional layers.
 The flattening process is followed by a fully conceted layer with 128 neurons and a dropout of 0.5. In order to perform a binary classification the model then was followed by an 
@@ -50,6 +50,22 @@ After teh completed training process, the models accuracy was assessed on the te
 There is a certain imbalance in the test data with only 37.5 % normal cases. The data shows that the model struggles to correctly identify "normal" cases. 
 
 <img width="462" alt="image" src="https://github.com/user-attachments/assets/99c87fae-1be6-4b58-9c5f-e03c6da1dfb3" />
+
+## Second Model/ Data augmentation
+As the dataset is publicly available on kaggle, various notebooks are available in the internet.
+In order to tackle the imbalance of the dataset data augmentation was proposed as a strategy to improve model generalization, prevent overfitting and 
+enhance robustness to variations in real-world data.
+
+Data augmentation is a techniques that is used artificially expand the training dataset by applying transformations to existing images.
+
+The notebook also suggested a different setup of the convolutional neural network. In the following, the models performance without data augmentation as well as
+both models performance metrics with the use of data augmentation will be assessed. 
+
+
+
+
+
+# Final Model Assessment
 
 
 
