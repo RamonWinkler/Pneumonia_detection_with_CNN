@@ -75,11 +75,12 @@ The more complex model did not resulted in a significant improvement.
 
 
 ## Data augmentation
-
+Data augmentation is a techniques that is used artificially expand the training dataset by applying transformations to existing images.
 
 
 # Final Model Assessment
+The performance on the test data improved for both models.
+![image](https://github.com/user-attachments/assets/49d3709c-bcaf-4e2b-9889-95c1c9043351)
 
-Using the less complex model...........
-
+Model 1 is not only simpler but also performed better on the test data
 
