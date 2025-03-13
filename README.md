@@ -42,7 +42,7 @@ outputlayer with a sigmoid activation function. The optimization consits of the 
 <img width="777" alt="image" src="https://github.com/user-attachments/assets/88678231-c09b-4063-8dc2-dac6c63925b8" />
 
 This model was given 5216 images for the training process. The training included 10 epochs, a batch_size of 32m and the validation data.
-After teh completed training process, the models accuracy was assessed on the test_images. Resulting in an overall accuracy of 76.6 %
+After the completed training process, the models accuracy was assessed on the test_images. Resulting in an overall accuracy of 76.6 %
 
 
 <img width="522" alt="image" src="https://github.com/user-attachments/assets/52c22698-63b2-43de-9859-df45252e0c45" />
@@ -60,6 +60,19 @@ Data augmentation is a techniques that is used artificially expand the training 
 
 The notebook also suggested a different setup of the convolutional neural network. In the following, the models performance without data augmentation as well as
 both models performance metrics with the use of data augmentation will be assessed. 
+![image](https://github.com/user-attachments/assets/6921b324-c6a1-48a0-a3a2-1f29d35a6493)
+
+
+In order to compare the two different models the same training process was followed:
+This model was given 5216 images for the training process. The training included 10 epochs, a batch_size of 32m and the validation data.
+
+The more complex model did not resulted in a significant improvement.
+
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/2342151a-d3b8-4a6b-bdd4-39a4b25a5f76" />
+
+![image](https://github.com/user-attachments/assets/7c7fc841-d272-47a3-afc3-d28c307f32c8)
+
+
 
 ## Data augmentation
 
@@ -67,5 +80,6 @@ both models performance metrics with the use of data augmentation will be assess
 
 # Final Model Assessment
 
+Using the less complex model...........
 
 
