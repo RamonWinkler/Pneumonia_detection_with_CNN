@@ -26,4 +26,25 @@ License: CC BY 4.0
 
 Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 
+## Data preprocessing
+The training data proofed to be imbalanced in favor for 
+
+
+
+## Model Training - First try with chatpgt suggestion
+In order to train the the model a basic suggestion from chatgpt was implemented first to assess the models performance.
+A simple sequential model (layer-by-layer) was suggested. The model consists of 3 convolutional layers, followed by flattening to flatten the output from the convolutional layers.
+The flattening process is followed by a fully conceted layer with 128 neurons and a dropout of 0.5. In order to perform a binary classification the model then was followed by an 
+outputlayer with a sigmoid activation function. The optimization consits of the following settings: optimizer= "adam", loss = "binary_crossentropy", metrics= ["accuracy"]
+
+<img width="777" alt="image" src="https://github.com/user-attachments/assets/88678231-c09b-4063-8dc2-dac6c63925b8" />
+
+This model was given 5216 images for the training process. The training included 10 epochs, a batch_size of 32m and the validation data.
+After teh completed training process, the models accuracy was assessed on the test_images. Resulting in an overall accuracy of 76.6 %
+
+
+<img width="522" alt="image" src="https://github.com/user-attachments/assets/52c22698-63b2-43de-9859-df45252e0c45" />
+
+
+
 
