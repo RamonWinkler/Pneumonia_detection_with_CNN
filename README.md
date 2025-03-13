@@ -51,7 +51,7 @@ There is a certain imbalance in the test data with only 37.5 % normal cases. The
 
 <img width="462" alt="image" src="https://github.com/user-attachments/assets/99c87fae-1be6-4b58-9c5f-e03c6da1dfb3" />
 
-## Second Model/ Data augmentation
+## Second Model and the effect of Data augmentation
 As the dataset is publicly available on kaggle, various notebooks are available in the internet.
 In order to tackle the imbalance of the dataset data augmentation was proposed as a strategy to improve model generalization, prevent overfitting and 
 enhance robustness to variations in real-world data.
@@ -61,7 +61,7 @@ Data augmentation is a techniques that is used artificially expand the training 
 The notebook also suggested a different setup of the convolutional neural network. In the following, the models performance without data augmentation as well as
 both models performance metrics with the use of data augmentation will be assessed. 
 
-
+## Data augmentation
 
 
 
