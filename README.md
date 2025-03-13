@@ -9,10 +9,10 @@ Pneumonia can range in seriousness from mild to life-threatening. It is most ser
 ![alt text](image.png)
 
 
-## The Dataset
+# The Dataset
 Source: Kaggle
 
-Content
+## Content
 The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 
 Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care.
@@ -26,12 +26,14 @@ License: CC BY 4.0
 
 Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 
-## Data preprocessing
+# Data preprocessing
 The training data proofed to be imbalanced in favor for 
 
 
 
-## Model Training - First try with chatpgt suggestion
+# Model Training 
+
+## First try with chatpgt suggestion
 In order to train the the model a basic suggestion from chatgpt was implemented first to assess the models performance.
 A simple sequential model (layer-by-layer) was suggested. The model consists of 3 convolutional layers, followed by flattening to flatten the output from the convolutional layers.
 The flattening process is followed by a fully conceted layer with 128 neurons and a dropout of 0.5. In order to perform a binary classification the model then was followed by an 
@@ -45,6 +47,9 @@ After teh completed training process, the models accuracy was assessed on the te
 
 <img width="522" alt="image" src="https://github.com/user-attachments/assets/52c22698-63b2-43de-9859-df45252e0c45" />
 
+There is a certain imbalance in the test data with only 37.5 % normal cases. The data shows that the model struggles to correctly identify "normal" cases. 
+
+<img width="462" alt="image" src="https://github.com/user-attachments/assets/99c87fae-1be6-4b58-9c5f-e03c6da1dfb3" />
 
 
 
